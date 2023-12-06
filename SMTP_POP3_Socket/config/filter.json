@@ -1,0 +1,18 @@
+{   "email_category_dir": "email", 
+    "default_category": "Inbox", 
+    "filter_list": 
+        [   
+            {
+                "directory": "Important", 
+                "address_from": ["tony@test.com", "tony_s@test.com", "tuan@hcmus.edu.vn"], 
+                "subject": ["IMPORTANT", "ASAP"], "content": ["pls"], 
+                "subject_or_content": ["[IMPORTANT]", "IMPORTANT", "Read this ASAP"]}, 
+            {
+                "directory": "Spam", 
+                "address_from": [], 
+                "subject": ["Advertisement"], 
+                "content": ["100% free", "99% discount"], 
+                "subject_or_content": ["[Advertisement]", "Free account"]
+            }
+        ]
+}
