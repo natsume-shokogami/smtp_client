@@ -1,0 +1,28 @@
+Content-Type: multipart/mixed; boundary="===============7426150289017077204=="
+MIME-Version: 1.0
+Subject: IMPORTANT: Test email
+From: natsume2@smtp.test.com
+To: natsume2@smtp.test.com
+CC: natsume2@smtp.test.com
+
+--===============7426150289017077204==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+This is a test mail. 
+ Something shouldn't go wrong here.
+ Hello world!
+--===============7426150289017077204==
+Content-Type: application/json
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="test.json"
+
+eyJhdXRvbG9hZCI6IDAsICJmZXRjaGVkX2VtYWlsX2luZGV4IjogWzAsIDBdLCAidXNlcm5hbWUi
+OiAidG9ueSIsICJwYXNzd29yZCI6ICIxMjM0NTY3OCIsICJlbWFpbF9hZGRyZXNzIjogInRvbnlA
+dGVzdC5jb20iLCAic2VydmVyIjogIjEyNy4wLjAuMSIsICJzbXRwX3BvcnQiOiAyMjI1LCAicG9w
+M19wb3J0IjogMzMzNX0=
+
+--===============7426150289017077204==--
+
